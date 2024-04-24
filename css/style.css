@@ -1,0 +1,84 @@
+.hero{
+    background: rgb(95,71,255);
+    background: linear-gradient(0deg, rgba(95,71,255,1) 0%, rgba(126,108,251,1) 100%);
+    padding: 180px;
+}
+
+.img-profile{
+    outline: 20px solid #b0a0ff77;
+    background-color: #fff;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.me-1-container{
+    width: 320px;
+    height: 320px;
+}
+.me-image-1{
+    width: 240px;
+}
+
+/*Educación*/
+.educacion{
+    padding: 180px;
+}
+
+.me-2-container{
+    width: 220px;
+    height: 220px;
+}
+.me-image-2{
+    width: 140px;
+}
+
+h6{
+    font-size: 14px;
+    color: #808797;
+}
+
+h3{
+    font-size: 34px;
+}
+
+.titulo{
+    font-weight: 700;
+    color: #5F47FF;
+}
+
+
+/*Laboral*/
+.laboral{
+    padding: 180px;
+    background-color: #F9F9F9;
+}
+
+
+/*Portafolio*/
+.portafolio-img{
+    width: 700px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/*Footer*/
+.footer{
+    padding: 180px;
+    background-color: #252A35; 
+}
+
+p{
+    font-size: 22px;
+}
+
+.pills{
+    padding: 16px 24px;
+    height: 40px;
+    background-color: #5F47FF;
+}

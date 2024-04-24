@@ -1,11 +1,186 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
+    <meta charset="utf-8">
+    <title>Richard Olivares</title>
+    <meta name="viewport"
+        content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../portafolio/assets/img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../portafolio/css/style.css">
 </head>
+
 <body>
-    
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Richi Olivares</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portafolio">Portafolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contáctame</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!--Presentación-->
+    <section class="container-fluid hero">
+        <div class="row justify-content-between">
+            <div class="img-profile me-1-container rounded-circle">
+                <img class="me-image-1" src="../portafolio/assets/img/me1.jpeg" alt="Yo en versión emoji saludando">
+            </div>
+            <div class="col-md-7">
+                <h1 class="text-light">¡Hola! Soy Richi Olivares, entusiasta del desarrollo front-end. Aunque estoy en
+                    las primeras etapas de mi carrera, mi dedicación y mi pasión por crear experiencias web atractivas y
+                    funcionales son fuertes.</h1>
+            </div>
+        </div>
+    </section>
+
+    <!--Educación-->
+    <section class="container-fluid educacion">
+        <div class="row justify-content-between align-items-start">
+            <div class="col-md-9">
+                <div class="d-flex flex-column align-items-start gap-5">
+                    <h2 class="text-dark rounded-pill">🎓 Formación</h2>
+                    <div>
+                        <h6>2022</h6>
+                        <h3>Poliglota</h3>
+                        <h3 class="titulo">Idioma Inglés B1</h3>
+                    </div>
+
+                    <div>
+                        <h6>2019</h6>
+                        <h3>Certiprof</h3>
+                        <h3 class="titulo">Scrum Foundation Profesional Certificate (SFPC)</h3>
+                    </div>
+
+                    <div>
+                        <h6>2011 - 2014</h6>
+                        <h3>Duoc UC</h3>
+                        <h3 class="titulo">Diseño Gráfico Profesional</h3>
+                    </div>
+                </div>
+
+            </div>
+            <div class="img-profile me-2-container rounded-circle">
+                <img class="me-image-2" src="../portafolio/assets/img/me2.jpeg" alt="Yo en versión emoji guiñendo un ojo">
+            </div>
+        </div>
+    </section>
+
+    <!--Experiencia Laboral-->
+    <section class="container-fluid laboral">
+        <div class="row justify-content-between align-items-start">
+            <div class="img-profile me-2-container rounded-circle">
+                <img class="me-image-2" src="../portafolio/assets/img/me3.jpeg" alt="Yo en versión emoji trabajando">
+            </div>
+            <div class="col-md-7">
+                <div class="d-flex flex-column align-items-start gap-5">
+                    <h2 class="text-dark rounded-pill">🖥 Experiencia laboral</h2>
+                    <div>
+                        <h6>2022 - Actualidad</h6>
+                        <h3>Product Designer</h3>
+                        <h3 class="titulo">Forest</h3>
+                    </div>
+
+                    <div>
+                        <h6>2021-2022</h6>
+                        <h3>UX Designer</h3>
+                        <h3 class="titulo">Global66</h3>
+                    </div>
+
+                    <div>
+                        <h6>2020 - 2021</h6>
+                        <h3>UX | UI Designer</h3>
+                        <h3 class="titulo">Banco Ripley - CHEK</h3>
+                    </div>
+
+                    <div>
+                        <h6>2017 - 2020</h6>
+                        <h3>UX | UI Designer</h3>
+                        <h3 class="titulo">LATAM Airlines, Transbank - Everis</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Portafolio-->
+    <section class="container-fluid educacion" id="portafolio">
+        <div class="row justify-content-between align-items-start">
+            <div class="col-md-9">
+                <div class="d-flex flex-column align-items-start gap-5">
+                    <h2 class="text-dark rounded-pill">💻 Portafolio</h2>
+                    <div>
+                        <h5>Desafío Cupón</h5>
+                        <h3 class="titulo">Friki Tienda</h3>
+                        <div style="background-image: url('../portafolio/assets/img/portafolio-img/cupon.png');" class="portafolio-img"></div>
+                    </div>
+
+                    <div>
+                        <h5>Desafío Página Iguana</h5>
+                        <h3 class="titulo">Iguanas</h3>
+                        <div class="d-flex flex-column align-items-start gap-1">
+                            <div style="background-image: url('../portafolio/assets/img/portafolio-img/iguana.png');" class="portafolio-img"></div>
+                            <div style="background-image: url('../portafolio/assets/img/portafolio-img/iguana\ 1.png');" class="portafolio-img"></div>
+                            <div style="background-image: url('../portafolio/assets/img/portafolio-img/iguana\ 2.png');" class="portafolio-img"></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h5>Desafío Landing Page</h5>
+                        <h3 class="titulo">Resinas Dragon Ball</h3>
+                        <div class="d-flex flex-column align-items-start gap-1">
+                            <div style="background-image: url('../portafolio/assets/img/portafolio-img/landing.png');" class="portafolio-img"></div>
+                            <div style="background-image: url('../portafolio/assets/img/portafolio-img/landing\ 2.png');" class="portafolio-img"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="img-profile me-2-container rounded-circle">
+                <img class="me-image-2" src="../portafolio/assets/img/me5.jpeg" alt="Yo en versión emoji pensando">
+            </div>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <footer class="container-fluid footer" id="footer">
+        <div class="row justify-content-between">
+            <div class="img-profile me-1-container rounded-circle">
+                <img class="me-image-1" src="../portafolio/assets/img/me4.jpeg" alt="Yo en versión emoji saludando">
+            </div>
+            <div class="col-md-7 d-flex flex-column align-items-start gap-5">
+                <h3 class="text-light">Si quieres conversar, no dudes en contactarme 😁</h3>
+                <div class="d-flex flex-column align-items-start gap-4">
+                    <a href="mailto:richolivares.m@gmail.com" target="_blank" class="text-light">✉️ richolivares.m@gmail.com</a>
+                    <a href="wa.me/56979807254" target="_blank" class="text-light">🤙️ +56 9 7980 7254</a>
+                    <a href="https://www.linkedin.com/in/riolivaresm/" target="_blank" class="text-light">🔗 Visita mi Linkedin</a>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
